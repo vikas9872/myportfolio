@@ -12,7 +12,9 @@ function App() {
       <Navbar/>
       {/* <Routes>
         <Route> */}
+        <div className='pt-10 h-screen'>
           <HomePage/>
+        </div>
         {/* </Route>
       </Routes> */}
     </div>
