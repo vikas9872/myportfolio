@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import HomePage from './Components/HomePageComponent/HomePage';
+import Navbar from './Components/NavbarComponent/Navbar';
+// import {Routes, Route} from "react-router-dom"
+// import { useContext } from 'react';
+// import { StoreContext } from './StoreContextComponent/StoreContext';
 
 function App() {
+  // const { theme } = useContext(StoreContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='dark:bg-black'>
+      <Navbar/>
+      {/* <Routes>
+        <Route> */}
+          <HomePage/>
+        {/* </Route>
+      </Routes> */}
     </div>
   );
 }
