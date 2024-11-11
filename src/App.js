@@ -1,22 +1,20 @@
 import './App.css';
+import AboutPage from './Components/AboutPageComponent/About';
 import HomePage from './Components/HomePageComponent/HomePage';
 import Navbar from './Components/NavbarComponent/Navbar';
-// import {Routes, Route} from "react-router-dom"
-// import { useContext } from 'react';
-// import { StoreContext } from './StoreContextComponent/StoreContext';
+import { Routes, Route } from "react-router-dom"
 
 function App() {
-  // const { theme } = useContext(StoreContext);
+
   return (
     <div className='dark:bg-black'>
-      <Navbar/>
-      {/* <Routes>
-        <Route> */}
-        <div className='pt-10 h-screen'>
-          <HomePage/>
-        </div>
-        {/* </Route>
-      </Routes> */}
+      <Navbar />
+      <div className='pt-10 h-screen'>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/about' element={<AboutPage />} />
+        </Routes>
+      </div>
     </div>
   );
 }
