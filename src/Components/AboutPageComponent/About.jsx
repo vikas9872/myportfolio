@@ -4,7 +4,7 @@ import SkillsCards from './SkillsCards';
 const AboutPage = () => {
   return (
     <>
-      <div className='flex flex-col p-10 items-center'>
+      <div className='flex flex-col pt-10 items-center'>
         <div className='text-black dark:text-white items-center font-bold text-6xl md:text-7xl font-roboto-condensed'>
           ABOUT ME
         </div>

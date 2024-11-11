@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <Link
                                     key={item.name}
                                     to={item.href}
-                                    // aria-current={item.current ? 'page' : undefined}
+                                    aria-current={item.current ? 'page' : undefined}
                                     className={classNames(
                                         item.current
                                             ? 'bg-gray-900 text-white dark:bg-gray-500 dark:text-white'
