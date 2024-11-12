@@ -8,7 +8,7 @@ const AboutPage = () => {
         <div className='text-black dark:text-white items-center font-bold text-6xl md:text-7xl font-roboto-condensed'>
           ABOUT ME
         </div>
-        <div className='p-2 text-black dark:text-white'>
+        <div className='p-2 text-black dark:text-white text-1xl '>
           <p>
             Aspiring software developer passionate about building scalable, efficient, and user-focused solutions.
             Known for a strong foundation in core programming skills and a drive to stay updated with evolving technologies.

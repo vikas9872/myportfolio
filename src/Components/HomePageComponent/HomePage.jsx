@@ -18,7 +18,7 @@ const HomePage = () => {
                 
                 <button className='border-2 w-1/2 rounded-full border-[#000000] dark:border-[#ffff] p-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black'>
                     <Link to="https://drive.google.com/file/d/1GecSe-pRE2sFBX0U9i_u_cea7AvTIgo6/view?usp=drive_link">
-                    Download Resume
+                    Resume
                     </Link>
                 </button>
             </div>
