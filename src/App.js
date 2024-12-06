@@ -1,7 +1,9 @@
 import './App.css';
-import AboutPage from './Components/AboutPageComponent/About';
+import SkillsPage from './Components/SkillsPageComponent/Skills';
 import HomePage from './Components/HomePageComponent/HomePage';
 import Navbar from './Components/NavbarComponent/Navbar';
+import EducationPage from './Components/EducationPageComponent/Education';
+import ProjectPage from './Components/ProjectPageComponent/Project';
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <div className='pt-10 h-screen'>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/about' element={<AboutPage />} />
+          <Route path='/skills' element={<SkillsPage />} />
+          <Route path='/education' element={<EducationPage/>} />
+          <Route path='/projects' element={<ProjectPage/>}/>
         </Routes>
       </div>
     </div>

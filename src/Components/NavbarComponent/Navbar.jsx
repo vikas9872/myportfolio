@@ -5,9 +5,9 @@ import { useContext } from 'react';
 import { StoreContext } from '../../StoreContextComponent/StoreContext';
 import { Link } from 'react-router-dom';
 const navigation = [
-    { name: 'Home', href: '/', current: true },
-    { name: 'About', href: '/about', current: false },
+    { name: 'Home', href: '/', current: false },
     { name: 'Education', href: '/education', current: false },
+    { name: 'Skills', href: '/skills', current: false },
     { name: 'Projects', href: '/projects', current: false },
     { name: 'Contact', href: '/contact', current: false },
 ];
