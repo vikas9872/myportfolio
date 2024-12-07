@@ -22,7 +22,7 @@ const HomePage = () => {
                     </Link>
                 </button>
             </div>
-            <div className='w-full md:w-1/2 mt-4 md:mt-0' data-aos="fade-right">
+            <div className='w-full md:w-1/2 mt-4 md:mt-0'>
                 <img className="block dark:hidden mx-auto" src="/ImageAssets/programminglogo.png" alt="programming_logo" />
                 <img className="hidden dark:block mx-auto" src="/ImageAssets/programminglogo.png" alt="programming_logo" />
             </div>
