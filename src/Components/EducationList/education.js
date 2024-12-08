@@ -12,7 +12,7 @@ const education=[
     {
         id: 3,
         name: "Presidency University",
-        yoc: "2020"
+        yoc: "2023"
     },
     {
         id: 4,

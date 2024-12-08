@@ -9,7 +9,7 @@ const EducationPage = () => {
       <div className='flex flex-wrap gap-12 bg-white dark:bg-black justify-center items-center'>
         {
           education.map(edu => (
-            <div key={edu.id} className='h-[250px] w-[250px] border-2 rounded shadow-2xl dark:shadow-2xl dark:shadow-gray-800 dark:border-gray-700'>
+            <div key={edu.id} className='flex flex-wrap items-center justify-center flex-col h-[200px] w-[400px] border-2 rounded-xl shadow-2xl dark:shadow-2xl dark:shadow-gray-700 dark:border-gray-700' data-aos="flip-right">
               <p className='text-black dark:text-white'>{edu.name}</p>
               <p className='text-black dark:text-white'>{edu.yoc}</p>
             </div>
