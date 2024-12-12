@@ -62,6 +62,7 @@ const EducationPage = () => {
               <div className="absolute inset-0 h-full w-full rounded-xl bg-white dark:bg-black px-6 text-center text-black dark:text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <div className="flex flex-col items-center justify-center h-full">
                   <h1 className="text-2xl font-bold">{edu.name}</h1>
+                  <p className='text-lg'>{edu.course}</p>
                   <p className="text-lg">{edu.yoc}</p>
                 </div>
               </div>
