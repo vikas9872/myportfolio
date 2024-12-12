@@ -50,7 +50,7 @@ const EducationPage = () => {
         {education.map((edu, index) => (
           <div
             key={index}
-            className="group h-[200px] w-[280px] sm:w-[400px] [perspective:1000px] relative"
+            className="group h-[200px] w-[280px] sm:w-[400px] sm:h-[224px] [perspective:1000px] relative"
             data-aos="flip-right"
           >
             <div className="relative h-full w-full border-2 rounded-xl shadow-2xl dark:shadow-2xl dark:shadow-gray-700 dark:border-gray-700 transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
