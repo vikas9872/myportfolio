@@ -46,7 +46,7 @@ const EducationPage = () => {
       >
         EDUCATION
       </div>
-      <div className="flex flex-wrap gap-12 justify-center items-center">
+      <div className="flex flex-wrap gap-12 bg-white dark:bg-black justify-center items-center">
         {education.map((edu, index) => (
           <div
             key={index}
