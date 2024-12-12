@@ -5,6 +5,7 @@ import Navbar from './Components/NavbarComponent/Navbar';
 import EducationPage from './Components/EducationPageComponent/Education';
 import ProjectPage from './Components/ProjectPageComponent/Project';
 import { Routes, Route } from "react-router-dom"
+import Contact from './Components/ContactPageComponent/Contact';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/skills' element={<SkillsPage />} />
           <Route path='/education' element={<EducationPage/>} />
           <Route path='/projects' element={<ProjectPage/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </div>
     </div>
