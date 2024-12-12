@@ -2,22 +2,26 @@ const education=[
     {
         id: 1,
         name: "J. S. S. Public School",
-        yoc: "2017"
+        yoc: "2017",
+        school: "./ImageAssets/jssschool.jpg"
     },
     {
         id: 2,
         name: "Sri Siddaganga PU College",
-        yoc: "2019"
+        yoc: "2019",
+        school: "./ImageAssets/siddagangapucollege.jpg"
     },
     {
         id: 3,
         name: "Presidency University",
-        yoc: "2023"
+        yoc: "2023",
+        school: "./ImageAssets/presidencyuniversity.jpg"
     },
     {
         id: 4,
         name: "Global Academy of Technology",
-        yoc: "2025"
+        yoc: "2025",
+        school: "./ImageAssets/globalacademyoftechnology.jpg"
     }
 ];
 export default education;

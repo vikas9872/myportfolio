@@ -12,7 +12,7 @@ const SkillsCards = () => {
     {
       skills.map(skill=>(
         <div key={skill.id} className='flex flex-wrap h-20 w-60 items-center justify-center border-2 rounded-xl shadow-2xl dark:shadow-2xl dark:shadow-gray-700 dark:border-gray-700' data-aos="flip-right" >
-          <img src={skill.image} alt={skill.name}/>
+          <img src={skill.skillimage} alt={skill.name} class="w-12 h-12"/>
           <span>{skill.name}</span>
         </div>
       ))
