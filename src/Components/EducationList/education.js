@@ -16,14 +16,14 @@ const education=[
     {
         id: 3,
         name: "Presidency University",
-        course: "B.Tech in Computer Science Technology",
+        course: "B.Tech in Computer Science Engineering",
         yoc: "2023",
         school: "./ImageAssets/presidencyuniversity.jpg"
     },
     {
         id: 4,
         name: "Global Academy of Technology",
-        course: "M.Tech in Computer Science Technology",
+        course: "M.Tech in Computer Science Engineering",
         yoc: "2025",
         school: "./ImageAssets/globalacademyoftechnology.jpg"
     }

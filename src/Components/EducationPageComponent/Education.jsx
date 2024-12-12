@@ -7,7 +7,6 @@ const EducationPage = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-
   return (
     <div className="flex flex-col pt-10 items-center h-auto">
       <div
