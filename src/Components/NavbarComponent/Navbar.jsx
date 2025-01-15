@@ -42,21 +42,21 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='mr-12'>
-                        <button onClick={toggleTheme} className="text-gray-800 dark:text-orange-400">
-                            {theme === "light" ? <FaMoon className="h-6 w-6" /> : <FaSun className="h-6 w-6" />}
+                        <button onClick={toggleTheme} className="flex items-center text-gray-800 dark:text-orange-400">
+                            {theme === "light" ? <FaMoon className="h-4 w-4 md:h-6 md:w-6" /> : <FaSun className="h-4 w-4 md:h-6 md:w-6" />}
                         </button>
                     </div>
                 </div>
             </div>
             <DisclosurePanel className="sm:hidden">
-                <div className="space-y-1 px-2 pb-3 pt-2">
+                <div className="space-y-10 px-2 pb-3 pt-2">
                     {navigation.map((item) => (
                         <DisclosureButton
                             key={item.name}
                             as="a"
                             href={item.href}
                             aria-current={item.current ? 'page' : undefined}
-                            className='text-black dark:text-white rounded-full  hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black px-3 py-2 text-sm font-medium'
+                            className='flex text-black dark:text-white rounded-md  hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black px-3 py-6 text-sm font-medium'
                         >
                             {item.name}
                         </DisclosureButton>
