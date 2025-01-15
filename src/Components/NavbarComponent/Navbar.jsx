@@ -28,7 +28,7 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <h1 className="text-black dark:text-white font-extrabold tracking-widest">{"</Vikas>"}</h1>
                     </div>
-                    <div className="hidden sm:ml-6 sm:block p-2 rounded-full border-2 border-gray-900 shadow-xl bg-white dark:bg-black dark:border-gray-100">
+                    <div className="hidden sm:ml-6 sm:block p-2 rounded-full border-2 shadow-2xl dark:shadow-2xl dark:shadow-gray-700 border-gray-900  bg-white dark:bg-black dark:border-gray-100">
                         <div className="flex space-x-4">
                             {navigation.map((item) => (
                                 <Link
