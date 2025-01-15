@@ -10,7 +10,7 @@ const projects=[
         id: 2,
         projectname: "my portfolio",
         projectpic: "./ImageAssets/myportfolio.jpeg",
-        projectdescription:"Responsive React Tailwind portfolio showcasing achievements with dynamic, interactive sections.",
+        projectdescription:"Responsive React Tailwind portfolio showcasing achievements.",
         githubLink: "https://github.com/vikas9872/myportfolio",
         demoLink: "https://myportfolio-vikas-shanabhog-s-projects.vercel.app/"
     }
