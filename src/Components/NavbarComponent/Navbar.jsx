@@ -1,5 +1,5 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon }  from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { FaMoon, FaSun } from "react-icons/fa";
 import { useContext } from 'react';
 import { StoreContext } from '../../StoreContextComponent/StoreContext';
@@ -58,6 +58,26 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            {/* <DisclosurePanel className="sm:hidden">
+                <div className="space-y-1 px-2 pb-3 pt-2">
+                    {navigation.map((item) => (
+                        <DisclosureButton
+                            key={item.name}
+                            as="a"
+                            href={item.href}
+                            aria-current={item.current ? 'page' : undefined}
+                            className={classNames(
+                                item.current
+                                    ? 'bg-gray-900 text-black dark:bg-gray-700 dark:text-white'
+                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                'block rounded-md px-3 py-2 text-base font-medium'
+                            )}
+                        >
+                            {item.name}
+                        </DisclosureButton>
+                    ))}
+                </div>
+            </DisclosurePanel> */}
             <DisclosurePanel className="sm:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     {navigation.map((item) => (
@@ -68,8 +88,8 @@ const Navbar = () => {
                             aria-current={item.current ? 'page' : undefined}
                             className={classNames(
                                 item.current
-                                    ? 'bg-gray-900 text-white dark:bg-gray-700 dark:text-white'
-                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                    ? 'bg-gray-900 text-black dark:bg-gray-700 dark:text-white'
+                                    : 'text-black hover:bg-gray-700 hover:text-white dark:text-gray-300',
                                 'block rounded-md px-3 py-2 text-base font-medium'
                             )}
                         >
