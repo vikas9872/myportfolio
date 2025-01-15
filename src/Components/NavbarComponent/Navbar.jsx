@@ -12,10 +12,6 @@ const navigation = [
     { name: 'Contact', href: '/contact', current: false },
 ];
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ');
-}
-
 const Navbar = () => {
     const { theme, toggleTheme } = useContext(StoreContext);
     return (
@@ -32,19 +28,13 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <h1 className="text-black dark:text-white font-extrabold tracking-widest">{"</Vikas>"}</h1>
                     </div>
-                    <div className="hidden sm:ml-6 sm:block p-2 rounded-full border-2 border-gray-900 bg-white dark:bg-black dark:border-gray-100">
+                    <div className="hidden sm:ml-6 sm:block p-2 rounded-full border-2 border-gray-900 shadow-xl bg-white dark:bg-black dark:border-gray-100">
                         <div className="flex space-x-4">
                             {navigation.map((item) => (
                                 <Link
                                     key={item.name}
                                     to={item.href}
-                                    aria-current={item.current ? 'page' : undefined}
-                                    className={classNames(
-                                        item.current
-                                            ? 'bg-gray-900 text-white dark:bg-gray-500 dark:text-white'
-                                            : 'text-black dark:text-gray-300 hover:bg-gray-500 hover:text-white',
-                                        'rounded-full px-3 py-2 text-sm font-medium'
-                                    )}
+                                    className='text-black dark:text-white rounded-full  hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black px-3 py-2 text-sm font-medium'
                                 >
                                     {item.name}
                                 </Link>
@@ -58,26 +48,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* <DisclosurePanel className="sm:hidden">
-                <div className="space-y-1 px-2 pb-3 pt-2">
-                    {navigation.map((item) => (
-                        <DisclosureButton
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            aria-current={item.current ? 'page' : undefined}
-                            className={classNames(
-                                item.current
-                                    ? 'bg-gray-900 text-black dark:bg-gray-700 dark:text-white'
-                                    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                'block rounded-md px-3 py-2 text-base font-medium'
-                            )}
-                        >
-                            {item.name}
-                        </DisclosureButton>
-                    ))}
-                </div>
-            </DisclosurePanel> */}
             <DisclosurePanel className="sm:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     {navigation.map((item) => (
@@ -86,12 +56,7 @@ const Navbar = () => {
                             as="a"
                             href={item.href}
                             aria-current={item.current ? 'page' : undefined}
-                            className={classNames(
-                                item.current
-                                    ? 'bg-gray-900 text-black dark:bg-gray-700 dark:text-white'
-                                    : 'text-black hover:bg-gray-700 hover:text-white dark:text-gray-300',
-                                'block rounded-md px-3 py-2 text-base font-medium'
-                            )}
+                            className='text-black dark:text-white rounded-full  hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black px-3 py-2 text-sm font-medium'
                         >
                             {item.name}
                         </DisclosureButton>

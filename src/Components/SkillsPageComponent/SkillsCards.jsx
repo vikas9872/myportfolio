@@ -22,4 +22,3 @@ const SkillsCards = () => {
 }
 
 export default SkillsCards
-// shadow-gray-500 dark:shadow-gray-800 dark:border-gray-700

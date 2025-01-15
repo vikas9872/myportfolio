@@ -19,10 +19,10 @@ const HomePage = () => {
             <div className='w-full md:w-1/2 flex flex-col dark:bg-black text-black dark:text-white gap-4'>
                 <p className='text-3xl'>Hello, <span>I'm</span></p>
                 <p className='text-6xl font-extrabold'>Vikas</p>
-                <p className='text-4xl'>{text}<Cursor cursorStyle="|" /></p>
+                <p className='text-3xl md:4xl'>{text}<Cursor cursorStyle="|" /></p>
 
-                <button className='border-2 w-1/2 rounded-full border-[#000000] dark:border-[#ffff] p-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black' onClick={handleDownload}>
-                    Resume
+                <button className='border-2 w-full md:w-1/2 rounded-full shadow-2xl dark:shadow-2xl dark:shadow-gray-700 dark:border-gray-700 p-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black' onClick={handleDownload}>
+                    Download resume
                 </button>
             </div>
             <div className='w-full md:w-1/2 mt-4 md:mt-0'>

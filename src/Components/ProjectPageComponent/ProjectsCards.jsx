@@ -18,7 +18,7 @@ const Cards = () => {
               <button className='border-2 border-[#000000] dark:border-[#ffff] p-2 rounded-xl dark:bg-black hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black' onClick={()=>window.open(project.githubLink,"_blank")}>
                 <p>source code</p>
               </button>
-              <button className={`border-2 border-[#000000] dark:border-[#ffff] p-2 rounded-xl ${project.demoLink ? 'dark:bg-black hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black' : 'cursor-not-allowed'}`}>
+              <button className={`border-2 border-[#000000] dark:border-[#ffff] p-2 rounded-xl ${project.demoLink ? 'dark:bg-black hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black' : 'border-gray-400 dark:border-gray-400 text-gray-400 cursor-not-allowed'}`}>
                 <p>live demo</p>
               </button>
             </div>
